@@ -16,8 +16,8 @@ nav {
   justify-content: center;
   padding: 0.5rem;
   gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  border-bottom: solid 1px #e71717;
+  background-color: #c41414;
 }
 
 nav a {
@@ -25,15 +25,15 @@ nav a {
   min-width: 9rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px #aaa;
+  border: solid 1px #0f0f0f;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: #0a0a0a;
 }
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: #d4d4d4;
+  background-color: #ec0707;
 }
 
 main {
@@ -43,4 +43,8 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+.imagem {
+  width: 100px;
+  height: 50px;
+}  
 }
