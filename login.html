@@ -19,14 +19,17 @@
     </header>
 
   <main>
-    <h1>Portal de Login - CarsClub</h1>
+    <h1>Portal de Login <br>CarsClub</h1>
 
       <form action="dashboard.html" method="post">
-          <label for="username">Usuário:</label><br>
-          <input type="text" id="username" name="username"><br>
-          <label for="password">Senha:</label><br>
-          <input type="password" id="password" name="password"><br><br>
+        <box-icon name='user' type='solid' ></box-icon>
+          <input type="text" placeholder=" Usuário" name="username"><br><br>
+          <box-icon type='solid' name='lock-alt'></box-icon>
+          <input type="password" placeholder="Senha" name="password"><br><br>
+        
           <input type="submit" value="Login">
+          <link rel="stylesheet" href="styleslogin.css" /> 
+          <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
       </form>
   </main>
 
