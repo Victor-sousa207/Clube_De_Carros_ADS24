@@ -76,9 +76,3 @@ p {
     align-items: center;
     justify-content: center;
   }
-  
-  img {
-    width: 1400px;
-    height: 600px;
-    object-fit: fill;
-  }
