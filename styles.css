@@ -3,12 +3,10 @@
 }
 
 body {
-  margin:0px;
+  margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
   background-color: black;
-  background-size: cover; 
-  
 }
 
 nav {
@@ -17,39 +15,60 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
-  gap: 20px;
-  border-bottom: solid 1px white;
+  gap: 0.5rem;
+  border-bottom: solid 1px black;
   background-color: black;
-  border-color: white;
 }
 
 nav a {
   display: inline-block;
+  position: relative;
   min-width: 9rem;
-  padding: 10px;
+  padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px rgb(245, 240, 240);
+  border: solid 1px black;
   text-align: center;
   text-decoration: none;
   color: white;
-  
 }
 
 nav a[aria-current='page'] {
-  color: #000;
+  color: white;
   background-color: #d4d4d4;
+}
+nav a::after{
+  content: " ";
+  width: 0%;
+  height: 1.6px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after {
+  width: 98%;
 }
 
 main {
   padding: 1rem;
-  margin: 0px ;
 }
 
-h1 {
-  font-weight: bold;
+h2 {
+  font-weight: 100;
+  font-size: 1.8rem;
+  color:white;
+  text-align: center;
+}
+p {
+  font-weight: 100;
   font-size: 1.5rem;
+  color:white;
+  text-align: center;
+  text-indent: 50px;
+  white-space: pre-wrap;
 }
-
   .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -63,7 +82,3 @@ h1 {
     height: 600px;
     object-fit: fill;
   }
-#Inicio{
-  color: white;
-  background-color: black;
-}
